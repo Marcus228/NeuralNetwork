@@ -1,0 +1,5 @@
+in raisin dataset: 0s are Besni raisins and 1s are Kecimen raisins
+in age predictions: 0 is young, 1 is old
+breast_cancer: malignant is 1, benign is 0
+In all datasets male is 0 and female is 1
+Any other data that was categorical(like medium, high, low, n/a) was replaced with values 0, 1, 0.5 and -1
