@@ -1,5 +1,5 @@
-This repository contains files and datasets needed to investigate and visualise the infulence that activation functions have on the efficiency and effectiveness of the custom build artificial neural network.
-It trains on 5 different datasets alongside with 4 different activation functions implemented.
-For each dataset the results were harvested by collecting MSE data for a range of epochs, starting from 20, going all the way up to 1000 in increments of 20, and then ploting the obtained reults on a graph of MSE against epoch in order to visualise the training process. This also enabled easier comparison between the influence of activation functions and the depth of Feed Forward NN on the output.
-The investigation has been conducted in order to work out the optimum epochs needed to train a model to a certain degree of accuracy(determined by MSE metric).
-The results revealed ReLU and leaky ReLU activation functions outperform others witha an average of 11% reduced error (for smaller number of layers).   
+	This repository contains files and datasets needed to investigate and visualise the infulence that activation functions have on the efficiency and effectiveness of the custom build artificial neural network.
+	It trains on 5 different datasets alongside with 4 different activation functions implemented.
+	For each dataset the results were harvested by collecting MSE data for a range of epochs, starting from 20, going all the way up to 1000 in increments of 20, and then ploting the obtained reults on a graph of MSE against epoch in order to visualise the training process. This also enabled easier comparison between the influence of activation functions and the depth of Feed Forward NN on the output.
+	The investigation has been conducted in order to work out the optimum epochs needed to train a model to a certain degree of accuracy(determined by MSE metric).
+	The results revealed ReLU and leaky ReLU activation functions outperform others with an average of 11% reduced error (for smaller number of layers).   
